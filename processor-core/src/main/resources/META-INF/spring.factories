@@ -1,0 +1,4 @@
+# Auto configure processor beans
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+io.processor.core.route.RouteHolder,\
+io.processor.core.eventbus.publisher.AsyncProcessorContextEventPublisher
