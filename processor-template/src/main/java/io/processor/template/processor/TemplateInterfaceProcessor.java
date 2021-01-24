@@ -1,13 +1,11 @@
 package io.processor.template.processor;
 
 import com.kevinten.processor.common.error.exception.ProcessorErrorCodeException;
-import io.processor.core.route.annotation.RouteEnable;
 import io.processor.core.route.event.RouteEvent;
 import io.processor.template.context.TemplateContext;
 import io.processor.template.error.code.TemplateErrorCodes;
 import io.processor.template.error.exception.TemplateErrorCodeException;
 import io.processor.template.route.TemplateRouteEvent;
-import io.processor.template.route.annotation.ProcessorRoute;
 import io.processor.template.route.type.CustomRouteType;
 import org.springframework.stereotype.Component;
 

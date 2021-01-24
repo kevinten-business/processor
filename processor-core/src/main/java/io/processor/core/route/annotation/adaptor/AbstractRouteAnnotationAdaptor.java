@@ -7,6 +7,12 @@ import java.lang.reflect.ParameterizedType;
 import java.util.Collections;
 import java.util.List;
 
+/**
+ * The Abstract route annotation adaptor.
+ *
+ * @param <Key> the type RouteKey
+ * @param <A>   the type Annotation
+ */
 public abstract class AbstractRouteAnnotationAdaptor<Key extends RouteKey, A extends Annotation>
         implements RouteAnnotationAdaptor<Key, A> {
 
