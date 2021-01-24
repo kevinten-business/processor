@@ -2,13 +2,21 @@
 
 Processor is the fundamental core architecture of streaming business systems.
 
-#### Route: 路由
+### Route: 路由
 
-基于注解的路由
+#### 基于注解的路由
 
-基于接口的路由
+Route: `io.processor.template.route.annotation.ProcessorRoute`
 
-#### Processor：业务处理的流程
+Processor: `io.processor.template.processor.TemplateAnnotationProcessor`
+
+#### 基于接口的路由
+
+Route: `io.processor.template.route.TemplateRouteKey`
+
+Processor: `io.processor.template.processor.TemplateInterfaceProcessor`
+
+### Processor：业务处理的流程
 
 责任链模式：定义Event处理事件的顺序
 
