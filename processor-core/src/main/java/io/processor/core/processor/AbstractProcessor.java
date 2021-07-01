@@ -21,7 +21,7 @@ import org.springframework.beans.factory.annotation.Autowired;
  */
 @Slf4j
 public abstract class AbstractProcessor<Context extends AbstractProcessorContext, Response extends AbstractProcessorResponse, Route extends RouteKey>
-        implements Processor<Context, Response, Route>, ProcessorResponseGenerator<Response> {
+        implements Processor<Context, Response>, ProcessorResponseGenerator<Response> {
 
     @Autowired
     private AsyncProcessorContextEventPublisher asyncProcessorContextEventPublisher;
